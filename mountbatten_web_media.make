@@ -1,3 +1,6 @@
+core = 7.x
+api = 2
+
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][subdir] = "contrib"
