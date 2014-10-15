@@ -49,9 +49,6 @@ function mountbatten_web_media_wysiwyg_default_profiles() {
           'CreateDiv' => 1,
           'Iframe' => 1,
         ),
-        'picture_ckeditor' => array(
-          'picture_ckeditor' => 1,
-        ),
         'drupal' => array(
           'media' => 1,
         ),
@@ -71,7 +68,6 @@ function mountbatten_web_media_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'rdf_mapping' => array(),
   );
 
   return $profiles;
