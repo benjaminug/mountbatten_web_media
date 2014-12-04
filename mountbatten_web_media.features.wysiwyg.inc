@@ -10,9 +10,9 @@
 function mountbatten_web_media_wysiwyg_default_profiles() {
   $profiles = array();
 
-  // Exported profile: full_html
-  $profiles['full_html'] = array(
-    'format' => 'full_html',
+  // Exported profile: filtered_html
+  $profiles['filtered_html'] = array(
+    'format' => 'filtered_html',
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
@@ -25,29 +25,11 @@ function mountbatten_web_media_wysiwyg_default_profiles() {
           'Bold' => 1,
           'Italic' => 1,
           'Underline' => 1,
-          'Strike' => 1,
-          'JustifyLeft' => 1,
-          'JustifyCenter' => 1,
-          'JustifyRight' => 1,
-          'JustifyBlock' => 1,
           'BulletedList' => 1,
           'NumberedList' => 1,
-          'Outdent' => 1,
-          'Indent' => 1,
-          'Undo' => 1,
-          'Redo' => 1,
           'Link' => 1,
-          'Image' => 1,
-          'Source' => 1,
-          'Cut' => 1,
-          'Copy' => 1,
-          'Paste' => 1,
-          'PasteFromWord' => 1,
-          'ShowBlocks' => 1,
-          'Table' => 1,
-          'SelectAll' => 1,
-          'CreateDiv' => 1,
-          'Iframe' => 1,
+          'Unlink' => 1,
+          'Blockquote' => 1,
         ),
         'drupal' => array(
           'media' => 1,
@@ -68,6 +50,7 @@ function mountbatten_web_media_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
+    'rdf_mapping' => array(),
   );
 
   return $profiles;
